@@ -20,8 +20,8 @@
     "dist"
   ],
   "scripts": {
-    "build": "tsdown",
-    "dev": "tsdown --watch",
+    "build": "node init && tsdown",
+    "dev": "node init && tsdown --watch",
     "clean": "rm -rf dist",
     "typecheck": "tsc --noEmit",
     "test": "echo \"No tests yet\"",
