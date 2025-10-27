@@ -1,6 +1,6 @@
 {
   "name": "@freemius/sdk",
-  "version": "0.0.6",
+  "version": "0.1.0",
   "description": "JS SDK for integrating your SaaS with Freemius",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
@@ -20,8 +20,8 @@
     "dist"
   ],
   "scripts": {
-    "build": "tsdown",
-    "dev": "tsdown --watch",
+    "build": "node init && tsdown",
+    "dev": "node init && tsdown --watch",
     "clean": "rm -rf dist",
     "typecheck": "tsc --noEmit",
     "test": "echo \"No tests yet\"",
